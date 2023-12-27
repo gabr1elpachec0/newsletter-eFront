@@ -1,18 +1,33 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: rgb(26,26,26);
-  background: linear-gradient(90deg, rgba(26,26,26,1) 35%, rgba(10,10,10,1) 100%);
+  background: linear-gradient(to right, #0a0a0a, #1a1a1a);
 }
 
 button:hover {
   cursor: pointer;
+  opacity: 80%;
+  transition: ease-in-out;
+  transition-duration: 500ms;
 }
 
 div.container {
   width: 606px;
+}
+
+/* Scrollbar design */
+
+::-webkit-scrollbar {
+  background-color: #252529;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #899BFF;
+  width: auto;
 }
 
 
@@ -121,4 +136,57 @@ button#submit {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 18px;
+}
+
+
+/* Responsive Layout */
+
+@media screen and (min-width: 400px) and (max-width: 480px) {
+  button#nav {
+    font-size: 14px;
+  }
+  div.container {
+    width: 380px;
+  }
+  h2#welcome-message {
+    font-size: 34px;
+  }
+  h3#stay-connected {
+    font-size: 24px;
+    text-align: center;
+  }
+  h4#fields-message {
+    font-size: 16px;
+  }
+  label {
+    font-size: 14px;
+  }
+  button#submit {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  button#nav {
+    font-size: 12px;
+  }
+  div.container {
+    width: 300px;
+  }
+  h2#welcome-message {
+    font-size: 24px;
+  }
+  h3#stay-connected {
+    font-size: 20px;
+    text-align: center;
+  }
+  h4#fields-message {
+    font-size: 12px;
+  }
+  label {
+    font-size: 12px;
+  }
+  button#submit {
+    font-size: 14px;
+  }
 }
