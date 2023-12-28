@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="resources/style.css">
+    <link rel="stylesheet" href="resources/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Inter:wght@500&family=Saira:wght@300;600&family=Sora:wght@200;600&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
   <header>
     <nav>
       <h2 id="nav-title"><span id="e">e</span>Front</h2>
-      <a href="#">
+      <a href="https://iuricode.com/efront/">
         <button id="nav">
           Comprar eBook
         </button>
@@ -33,18 +33,24 @@
     <section id="form">
       <div class="container">
         <h4 id="fields-message">Preencha os campos para receber as notícias <br> sobre programação</h4>
-        <form action="#">
+        <form id="newsletterSubscribe">
           <label for="userName">Nome</label>
-          <input type="text" name="userName">
+          <input type="text" name="userName" id="userName">
           <label for="email">E-mail</label>
-          <input type="email" name="email">
-          <button id="submit" type="submit">
+          <input type="email" name="email" id="email">
+          <button id="submit" type="button" onclick="sendForm()">
             Enviar
           </button>
         </form>
       </div>
     </section>
   </main>
+
+  <div class="modal" id="modalOverlay">
+    <div id="modal"></div>
+  </div>
+
+  <script src="resources/js/script.js"></script>
 
 </body>
 </html>

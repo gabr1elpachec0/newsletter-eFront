@@ -124,6 +124,10 @@ input {
   background-color: #0C0C0C;
   border: 1px #212529 solid;
   border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  padding-left: 10px;
 }
 
 button#submit {
@@ -138,12 +142,90 @@ button#submit {
   font-size: 18px;
 }
 
+/* Modal */
+div.modal {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:  rgba(20, 20, 20, 0.8);
+}
+
+div#modal {
+  background-color: #151515;
+  border: 1px #212529 solid;
+  border-radius: 4px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  height: 300px;
+  color: white;
+}
+
+p#modalMessage{
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: white;
+}
+
+span#successSpan {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: #04D361;
+}
+
+span#errorSpan {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: #FF3E3E;
+}
+
+button#closeSuccessModal {
+  background-color: #04D361;
+  width: 600px;
+  height: 60px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  border: 0;
+  border-radius: 4px;
+}
+
+button#closeErrorModal {
+  background-color: #FF3E3E;
+  width: 600px;
+  height: 60px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  border: 0;
+  border-radius: 4px;
+}
+
 
 /* Responsive Layout */
 
 @media screen and (min-width: 400px) and (max-width: 480px) {
+  h2#nav-title {
+    font-size: 34px;
+  }
+  span#e {
+    font-size: 34px;
+  }
   button#nav {
-    font-size: 14px;
+    font-size: 12px;
   }
   div.container {
     width: 380px;
@@ -164,11 +246,36 @@ button#submit {
   button#submit {
     font-size: 16px;
   }
+  p#modalMessage{
+    font-size: 18px;
+  }
+  span#successSpan {
+    font-size: 18px;
+  }
+  span#errorSpan {
+    font-size: 18px;
+  }
+  button#closeSuccessModal {
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+  }
+  button#closeErrorModal {
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 400px) {
+  h2#nav-title {
+    font-size: 24px;
+  }
+  span#e {
+    font-size: 24px;
+  }
   button#nav {
-    font-size: 12px;
+    font-size: 10px;
   }
   div.container {
     width: 300px;
@@ -188,5 +295,24 @@ button#submit {
   }
   button#submit {
     font-size: 14px;
+  }
+  p#modalMessage{
+    font-size: 16px;
+  }
+  span#successSpan {
+    font-size: 16px;
+  }
+  span#errorSpan {
+    font-size: 16px;
+  }
+  button#closeSuccessModal {
+    width: 240px;
+    height: 60px;
+    font-size: 16px;
+  }
+  button#closeErrorModal {
+    width: 240px;
+    height: 60px;
+    font-size: 16px;
   }
 }
