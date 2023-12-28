@@ -245,6 +245,7 @@ button#closeErrorModal {
   }
   button#submit {
     font-size: 16px;
+    color: black;
   }
   p#modalMessage{
     font-size: 18px;
@@ -295,6 +296,7 @@ button#closeErrorModal {
   }
   button#submit {
     font-size: 14px;
+    color: black;
   }
   p#modalMessage{
     font-size: 16px;
