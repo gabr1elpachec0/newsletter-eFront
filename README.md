@@ -17,14 +17,13 @@ https://fonts.google.com/specimen/Inter?query=inter
 # :pushpin: Imagens:
 
 NEWSLETTER SUBSCRIBE:
-
 ![Captura de tela 2024-01-01 170950](https://github.com/gabr1elpachec0/newsletter-eFront/assets/97643968/ffd51c41-9924-4c3d-96ee-9b5820419410)
 
 SUCCESS MODAL:
-![Captura de tela 2023-12-28 150025](https://github.com/gabr1elpachec0/newsletter-eFront/assets/97643968/0f549b42-5885-41d7-9c81-a3182f4fab16)
+![Captura de tela 2024-01-01 171136](https://github.com/gabr1elpachec0/newsletter-eFront/assets/97643968/fd01466d-a5da-47af-a999-d32911c43e67)
 
 ERROR MODAL:
-![Captura de tela 2023-12-28 150043](https://github.com/gabr1elpachec0/newsletter-eFront/assets/97643968/ce4a5c7e-ef49-4291-8769-85330303fe1c)
+![Captura de tela 2024-01-01 171147](https://github.com/gabr1elpachec0/newsletter-eFront/assets/97643968/c142e455-5a14-4e58-848a-c5871a7da7f5)
 
 
 <p align="center">Desafios de front-end com projetos práticos da comunidade <a href="https://iuricode.com/efront/">eFront</a>, idealizada pelo <a href="https://www.iuricode.com/">Iuri Silva</a>.</p>
