@@ -1,7 +1,7 @@
 <h1>
   eFront - Newsletter
 </h1>
-a
+
 ## ✔️ Tecnologias utilizadas:
 - ``HTML5``
 - ``CSS3``
@@ -25,6 +25,6 @@ NEWSLETTER SUBSCRIBE:
 
 <h3 align="center">
   
-  :construction: PROJETO aEM ANDAMENTO :construction:
+  :construction: PROJETO FINALIZADO :construction:
   
 </h3>
